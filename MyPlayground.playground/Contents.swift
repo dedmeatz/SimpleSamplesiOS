@@ -26,6 +26,16 @@ for (_,attr) in u1mirror.children.enumerated(){
     valArr.add(attr.value)
 }
 
+func parseJSONtoUser(json: NSArray) -> [User]{
+    var userList: [User]?
+    for val in json{
+        let userTemp = (val as! [String:Any])["user"] as! [String:Any]
+        let user = User(name: userTemp["name"] as! String, age: userTemp["age"] as! Int, email: userTemp["email"] as! String, dob: userTemp["dob"] as! NSDate)
+        userList?.append(user)
+    }
+    return userList!
+}
+
 let urlString = ""
 let url = URL(string: urlString)
 let request = NSMutableURLRequest(url: url!)
@@ -33,10 +43,13 @@ request.httpMethod = "GET"
 request.addValue("application/json", forHTTPHeaderField: "Content-Type")
 let task = URLSession.shared.dataTask(with: request as URLRequest) { (data, response, error) in
     do{
-        var json = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.allowFragments)
+        var json = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.allowFragments) as! NSArray
+        var userList = parseJSONtoUser(json: json)
     } catch {
         print("error")
     }
 }
 task.resume()
+
+
 
