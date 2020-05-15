@@ -1,0 +1,15 @@
+//
+//  site-debug.xcconfig
+//  SampleProject
+//
+//  Created by Karthik Aiyer on 24/10/19.
+//  Copyright © 2019 Karthik Aiyer. All rights reserved.
+//
+
+APP_NAME = SampleMVC Project DEV
+APP_VERSION = 0.1
+APP_BUNDLE_ID = com.company.samples.dev.SampleMVC
+APP_ICON = AppIconDebug
+
+API_URL = https:/$()/www.something.com/
+API_KEY = uuid_dev
