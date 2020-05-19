@@ -1,0 +1,15 @@
+//
+//  site-prod.xcconfig
+//  SampleProject
+//
+//  Created by Karthik Aiyer on 24/10/19.
+//  Copyright © 2019 Karthik Aiyer. All rights reserved.
+//
+
+APP_NAME = SampleMVP Project
+APP_VERSION = 0.1
+APP_BUNDLE_ID = com.company.samples.SampleMVP
+APP_ICON = AppIcon
+
+API_URL = https:/$()/www.something.com/
+API_KEY = uuid_prod
