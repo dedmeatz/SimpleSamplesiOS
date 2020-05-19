@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (5.0.2)
+  - HydraAsync (2.0.2)
+  - KeychainAccess (4.1.0)
+  - Nimble (8.0.5)
+  - Quick (2.2.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - HydraAsync
+  - KeychainAccess
+  - Nimble
+  - Quick
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HydraAsync
+    - KeychainAccess
+    - Nimble
+    - Quick
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  HydraAsync: 690b8c1c9dcde7ee1093cee363a6c1ce36b56a83
+  KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
+  Nimble: 4ab1aeb9b45553c75b9687196b0fa0713170a332
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: ab7d68d933d0bcce8fc949380cf22baae9a07988
+
+COCOAPODS: 1.8.4
