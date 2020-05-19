@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -36,7 +36,9 @@
 
 /* Begin PBXFileReference section */
 		1F0B0AD5418A35E20158C1D2 /* Pods-SampleMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleMVVMTests.release.xcconfig"; path = "Target Support Files/Pods-SampleMVVMTests/Pods-SampleMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A1179966FAA211920F7A396 /* Pods-SampleMVVM.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleMVVM.staging.xcconfig"; path = "Target Support Files/Pods-SampleMVVM/Pods-SampleMVVM.staging.xcconfig"; sourceTree = "<group>"; };
 		608A59EFAFF32C12FCADF02C /* Pods_SampleMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1BDCB5B9CEB49FAE52D3B5 /* Pods-SampleMVVMTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleMVVMTests.staging.xcconfig"; path = "Target Support Files/Pods-SampleMVVMTests/Pods-SampleMVVMTests.staging.xcconfig"; sourceTree = "<group>"; };
 		74855FF6FC7004F15C2ADFF0 /* Pods-SampleMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleMVVM.release.xcconfig"; path = "Target Support Files/Pods-SampleMVVM/Pods-SampleMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		771B2DE4BE61991A8DC9BF3D /* Pods-SampleMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleMVVMTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleMVVMTests/Pods-SampleMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B67E162924738D4300CA5496 /* SampleMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,8 +89,9 @@
 				74855FF6FC7004F15C2ADFF0 /* Pods-SampleMVVM.release.xcconfig */,
 				771B2DE4BE61991A8DC9BF3D /* Pods-SampleMVVMTests.debug.xcconfig */,
 				1F0B0AD5418A35E20158C1D2 /* Pods-SampleMVVMTests.release.xcconfig */,
+				4A1179966FAA211920F7A396 /* Pods-SampleMVVM.staging.xcconfig */,
+				6C1BDCB5B9CEB49FAE52D3B5 /* Pods-SampleMVVMTests.staging.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -418,6 +421,103 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B638D32E2473AAD60043F8C9 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Staging;
+		};
+		B638D32F2473AAD60043F8C9 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1179966FAA211920F7A396 /* Pods-SampleMVVM.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETGY6SE22U;
+				INFOPLIST_FILE = SampleMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.samples.SampleMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
+		B638D3302473AAD60043F8C9 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1BDCB5B9CEB49FAE52D3B5 /* Pods-SampleMVVMTests.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ETGY6SE22U;
+				INFOPLIST_FILE = SampleMVVMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.samples.SampleMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleMVVM.app/SampleMVVM";
+			};
+			name = Staging;
+		};
 		B67E164624738D4600CA5496 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -536,7 +636,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE02B6D6BA1A9A81B09A22BE /* Pods-SampleMVVM.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDebug;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ETGY6SE22U;
 				INFOPLIST_FILE = SampleMVVM/Info.plist;
@@ -555,6 +656,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74855FF6FC7004F15C2ADFF0 /* Pods-SampleMVVM.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ETGY6SE22U;
@@ -574,7 +676,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 771B2DE4BE61991A8DC9BF3D /* Pods-SampleMVVMTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ETGY6SE22U;
@@ -597,7 +699,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F0B0AD5418A35E20158C1D2 /* Pods-SampleMVVMTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ETGY6SE22U;
@@ -624,6 +726,7 @@
 			buildConfigurations = (
 				B67E164624738D4600CA5496 /* Debug */,
 				B67E164724738D4600CA5496 /* Release */,
+				B638D32E2473AAD60043F8C9 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -633,6 +736,7 @@
 			buildConfigurations = (
 				B67E164924738D4600CA5496 /* Debug */,
 				B67E164A24738D4600CA5496 /* Release */,
+				B638D32F2473AAD60043F8C9 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -642,6 +746,7 @@
 			buildConfigurations = (
 				B67E164C24738D4600CA5496 /* Debug */,
 				B67E164D24738D4600CA5496 /* Release */,
+				B638D3302473AAD60043F8C9 /* Staging */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
